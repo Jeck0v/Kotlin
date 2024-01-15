@@ -2,8 +2,8 @@
 import java.util.Scanner    //permet de lire les entrées de l'utilisateur dans la console
 fun main() {
     val notes = mutableListOf<String>()
-    val scanner = Scanner(System.`in`)
-    var choice = 0
+    val scanner = Scanner(System.`in`)    //val est une variable immuable qui ne peut-être assigné qu'une seule fois
+    var choice = 0    //var est une variable mutable qui peut-être assigné plusieurs fois
     while (choice != 4) {    // tant que la variable choice n'est pas égale à 4 alors le menu sera afficher
         println("1. Ajouter une Note")        //pintln() prend une chaîne de caractère en argument et affiche cette chaîne avec un saut de ligne => permet d'afficher du texte à l'utilisateur
         println("2. Modifier le contenu d'une note")
