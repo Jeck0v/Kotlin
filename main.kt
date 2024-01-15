@@ -1,7 +1,7 @@
 // Début To do list prochaine étape l'a connecter à une BDD
 import java.util.Scanner    //permet de lire les entrées de l'utilisateur dans la console
 fun main() {
-    val notes = mutableListOf<String>()
+    val notes = mutableListOf<String>()    //
     val scanner = Scanner(System.`in`)    //val est une variable immuable qui ne peut-être assigné qu'une seule fois
     var choice = 0    //var est une variable mutable qui peut-être assigné plusieurs fois
     while (choice != 4) {    // tant que la variable choice n'est pas égale à 4 alors le menu sera afficher
